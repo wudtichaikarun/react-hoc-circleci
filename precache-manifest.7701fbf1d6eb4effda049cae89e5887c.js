@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-hoc/static/js/runtime~main.71189965.js"
   },
   {
-    "revision": "1680ff42fe3dca78f4f6",
-    "url": "/react-hoc/static/js/main.1680ff42.chunk.js"
+    "revision": "59f11613bd6df113e24d",
+    "url": "/react-hoc/static/js/main.59f11613.chunk.js"
   },
   {
     "revision": "01f019eedfdf20d85b94",
     "url": "/react-hoc/static/js/1.01f019ee.chunk.js"
   },
   {
-    "revision": "1680ff42fe3dca78f4f6",
+    "revision": "59f11613bd6df113e24d",
     "url": "/react-hoc/static/css/main.252df6b1.chunk.css"
   },
   {
-    "revision": "7c50e05c9199fc0f753615f9a7f3686d",
+    "revision": "5114cc40e8a947c3f5a3d7203f1701d6",
     "url": "/react-hoc/index.html"
   }
 ];
