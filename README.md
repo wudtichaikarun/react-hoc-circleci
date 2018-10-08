@@ -1,3 +1,6 @@
+# Example project
+[react-hoc](https://wudtichaikarun.github.io/react-hoc/)
+
 # Circle ci
 
 - add folder .circleci/config.yml
