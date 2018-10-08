@@ -1,7 +1,13 @@
 # Higer order component
 
+- concern
 - core concern
 - cross cutting concern
+- hoc
+
+## concern
+
+A concern is a term that refers to a part of the system divided on the basis of the functionality
 
 ## core concern
 
@@ -13,6 +19,10 @@
 - logProps
 - fetchApi
 - fatchData
+
+## hoc
+
+- EnhancedComponent
 
 ```javascript
 import React, { Component } from 'react';
