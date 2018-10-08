@@ -26,8 +26,8 @@ function logProps(WrappedComponent) {
     static displayName = `LogProps(${getDisplayName(WrappedComponent)})`;
 
     componentWillReceiveProps(nextProps) {
-      console.warn('Prev Props', this.props);
-      console.warn('Next Props', nextProps);
+      console.log('Prev Props', this.props);
+      console.log('Next Props', nextProps);
     }
 
     render() {

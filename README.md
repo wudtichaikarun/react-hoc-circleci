@@ -37,6 +37,7 @@ workflows:
 ```
 
 - goto `https://circleci.com/dashboard` and ADD PROJECTS
+- at local run `npm run predeploy` and `npm run deploy` for deploy build project up to git hub
 
 # Higer order component
 
