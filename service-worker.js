@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/react-hoc/precache-manifest.7701fbf1d6eb4effda049cae89e5887c.js"
+  "/react-hoc-circleci/precache-manifest.eaf23857d2d39e398c5b0bbc2527365e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-hoc/index.html", {
+workbox.routing.registerNavigationRoute("/react-hoc-circleci/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
