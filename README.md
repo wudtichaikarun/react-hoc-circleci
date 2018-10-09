@@ -1,5 +1,5 @@
 # Example project
-[react-hoc](https://wudtichaikarun.github.io/react-hoc/)
+[react-hoc](https://wudtichaikarun.github.io/react-hoc-circleci/)
 
 # Circle ci
 
