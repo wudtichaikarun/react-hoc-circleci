@@ -28,6 +28,7 @@ function logProps(WrappedComponent) {
     componentWillReceiveProps(nextProps) {
       console.log('Prev Props', this.props);
       console.log('Next Props', nextProps);
+      console.log('test deploy git by circleci');
     }
 
     render() {
