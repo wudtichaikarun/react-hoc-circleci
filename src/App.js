@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import hoistNonReactStatic from 'hoist-non-react-statics';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  padding: 2rem;
+  background-color: orangered;
+`;
 
 function getDisplayName(WrappedComponent) {
   return WrappedComponent.displayName || WrappedComponent.name || 'Component';
@@ -111,12 +117,19 @@ class App extends Component {
     });
   };
 
+  componentDidMount() {
+    this.refInput.focus();
+  }
+
   render() {
     return (
-      <div>
+      <Container>
         <button onClick={this.toggleLogin}>Toggle</button>
         <EnhancedComponent {...this.state} />
-      </div>
+        <br />
+        <br />
+        <input ref={input => (this.refInput = input)} />
+      </Container>
     );
   }
 }
